@@ -1,0 +1,13 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3.10'
+
+[packages]
+dbt-core = '1.8.4'
+dbt-bigquery = '1.8.2'
+
+[dev-packages]

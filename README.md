@@ -1,44 +1,27 @@
 # dbt-training
 
-- [about](#about)
-- [setup](#setup)
+- [About](#about)
+    - [This project](#this-project)
+    - [dbt](#dbt)
+- [Setup](#setup)
 
-## About
+## About this project
+
+### This project
 
 My private repo to play with dbt.
 
+
+### dbt
+
+Summarizing `dbt` in a few words - "dbt is a transformation workflow that helps you get more work done while producing higher quality results." [~What is dbt?]
+
+[~What is dbt?]: https://docs.getdbt.com/docs/introduction
+
+![https://docs.getdbt.com/docs/introduction#](/docs/dbt-cloud-overview.png)
+
+
 ## Setup
 
-### Prerequisites
+For setup instructions follow [Setup Guide](./docs/setup.md).
 
-You should have the following installed:
-- `Python3` with `pip`
-- `virtualenv`
-
-### Setup on fresh Ubuntu instance
-
-Upgrade your distr before:
-
-```bash
-apt-get upgrade
-```
-
-Run the following commands to install required packages:
-
-```bash
-# for python install pip and virtualenv
-apt install -y python3-pip
-apt install -y python3-virtualenv
-```
-
-Install `python` packages:
-
-```bash
-python3 -m pip install pipenv
-```
-
-### Virtualenv
-
-Now create a 1`Python` `virtual environment` and instrall required packages.
-
-Sed this [Virtualenv Guide](./docs/virtualenv.md).

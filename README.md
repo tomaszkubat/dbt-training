@@ -25,3 +25,7 @@ Summarizing `dbt` in a few words - "dbt is a transformation workflow that helps 
 
 For setup instructions follow [Setup Guide](./docs/setup.md).
 
+## Working with dbt
+
+For working with dbt follow [internal dbt guide](./docs/dbt.md).
+

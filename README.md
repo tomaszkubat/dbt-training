@@ -1,18 +1,28 @@
 # dbt-training
 
-- [About](#about)
-    - [This project](#this-project)
-    - [dbt](#dbt)
+- [About this project](#about-this-project)
+    - [Intro](#intro)
+    - [Repository structure](#repository-structure)
+- [About dbt](#dbt)
 - [Setup](#setup)
 
 ## About this project
 
-### This project
+### Intro
 
 My private repo to play with dbt.
 
+### Repository structure
 
-### dbt
+```markdown
+├── dbt-projects            # just a dbt projects
+│   ├── garden              # my first dbt project ;)
+├── docs                    # additional docummentation and images
+└── .gitignore
+```
+
+
+## About dbt
 
 Summarizing `dbt` in a few words - "dbt is a transformation workflow that helps you get more work done while producing higher quality results." [~What is dbt?]
 

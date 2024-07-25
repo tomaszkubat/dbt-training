@@ -23,3 +23,8 @@ Run `dbt debug` from within a `dbt project` to **test your connection**.[~Connec
 
 [~Connection profiles]: https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
 
+### Using different targets
+
+If you do have multiple targets in your `profile`, and want to use a target other than the `default`, you can do this using the `--target` option when issuing a `dbt` command.[~Connection profiles]
+
+

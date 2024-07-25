@@ -7,11 +7,12 @@ Initialize new `dbt` project in the current localization:
 ```bash
 dbt init
 ```
+Next, set the `project name` and `database`
+apd provide `BigQuery` specify input, like `authorization mentod`, `project id` and `dataset name`.
 
-Next, set the `project name` and `database`.
+Automatically, the profile file `~/.dbt/profiles.yml` will be created.
+More about [dbt profiles](https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml).
 
-For `BigQuery` specify the `authorization mentod`, `project id` and `dataset name`.
+## Connection profiles
 
-Configuring profile:
-
-https://docs.getdbt.com/docs/configure-your-profile
+Configuring [connection profile](https://docs.getdbt.com/docs/configure-your-profile)

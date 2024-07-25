@@ -15,12 +15,20 @@ My private repo to play with dbt.
 ### Repository structure
 
 ```markdown
-├── dbt-projects            # just a dbt projects
-│   ├── garden              # my first dbt project ;)
-├── docs                    # additional docummentation and images
+├── dbt-projects                # just a dbt projects
+│   ├── garden                  # my first dbt project ;)
+│       ├── macros   
+│       ├── ...
+│       └── dbt_project.yml     # file indicating a dbt project
+├── docs                        # additional docummentation and images
 └── .gitignore
 ```
 
+Additional files used when working with `dbt`.
+
+```markdown
+~/.dbt/profiles.yml             # data platform details
+```
 
 ## About dbt
 
@@ -29,7 +37,6 @@ Summarizing `dbt` in a few words - "dbt is a transformation workflow that helps 
 [~What is dbt?]: https://docs.getdbt.com/docs/introduction
 
 ![https://docs.getdbt.com/docs/introduction#](/docs/dbt-cloud-overview.png)
-
 
 ## Setup
 

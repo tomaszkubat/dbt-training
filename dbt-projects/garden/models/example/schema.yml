@@ -2,20 +2,28 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
+  - name: species
+    description: "All species"
     columns:
       - name: id
-        description: "The primary key for this table"
+        description: "PK"
         data_tests:
           - unique
           - not_null
+      - name: name
+        description: "Plant species name"
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "Activation flag"
+        data_tests:
+          - not_null
 
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
+  - name: species_active
+    description: "Active species only"
     columns:
       - name: id
-        description: "The primary key for this table"
+        description: "PK"
         data_tests:
           - unique
           - not_null

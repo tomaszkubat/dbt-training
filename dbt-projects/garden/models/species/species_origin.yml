@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: species_origin
+    description: "Contry codes for species"
+    columns:
+      - name: id
+        description: "Species id"
+        data_tests:
+          - unique
+          - not_null
+      - name: alpha_2
+        description: "Country code Alpha 2"
+        data_tests:
+          - unique
+          - not_null
+          

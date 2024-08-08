@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: species
+    description: "All species"
+    columns:
+      - name: id
+        description: "Species id"
+        data_tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Plant species name"
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "Activation flag"
+        data_tests:
+          - not_null
+          

@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: species_active
+    description: "Active species only"
+    columns:
+      - name: id
+        description: "Species id"
+        data_tests:
+          - unique
+          - not_null
+          

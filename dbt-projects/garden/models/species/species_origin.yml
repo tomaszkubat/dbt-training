@@ -10,9 +10,12 @@ models:
         data_tests:
           - unique
           - not_null
-      - name: alpha_2
-        description: "Country code Alpha 2"
+      - name: country
+        description: "Country name"
         data_tests:
           - unique
           - not_null
+          - relationships:
+              to: ref('countries')
+              field: country
           

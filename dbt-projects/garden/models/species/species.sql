@@ -1,5 +1,6 @@
 {{ config(materialized='table') }}
 
+-- load initial data to table
 with source_data as (
 
     select 1 as id, 'flowers' as name, true as is_active
